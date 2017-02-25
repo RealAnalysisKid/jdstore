@@ -70,7 +70,8 @@
     margin: auto;
 }
 
-.carousel-caption h3 {
+.carousel-caption  {
+    font-family: SimSun, "宋体";
     color: #fff !important;
 }
 
@@ -104,7 +105,7 @@
 }
 
 .title {
-  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+  font-family: SimSun, "宋体";
   text-align: left;
   margin-top: 200px;
   margin-bottom: 80px;
@@ -113,6 +114,7 @@
 .slogan {
   margin-top: 10px;
   margin-bottom: 50px;
+  font-family: SimSun, "宋体";
   text-align: left;
   color: light orange;
   top: 12px;
