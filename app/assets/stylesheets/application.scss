@@ -27,8 +27,8 @@ background-color: #2d2d30;
   background-color: #2d2d30;
   border: 0;
   font-size: 11px !important;
-  letter-spacing: 4px;
-  opacity:0.9;
+  letter-spacing: 1px;
+  opacity:0.65;
 }
 
 /* Add a gray color to all navbar links */
@@ -70,7 +70,7 @@ background-color: #2d2d30;
 
  .carousel-inner img {
     -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* 黑白化图片的三段语句,好像不成功?!make all photos black and white */
+    filter: grayscale(20%); /* 黑白化图片的三段语句,好像不成功?!make all photos black and white */
     width: 100%; /* 第一版设计加的 Set width to 100% */
     margin: auto;
 }
@@ -94,7 +94,7 @@ background-color: #2d2d30;
      margin-bottom: 50px;
      width: 70%;  /*这两段 person开头的,是用来切换图片用的*/
      height: 70%;
-     opacity: 0.8;
+     opacity: 0.6;
 }
  .person:hover {
      border-color: #f1f1f1;
@@ -102,7 +102,7 @@ background-color: #2d2d30;
 
 
  .jumbotron {
-  background-image:url('https://files.slack.com/files-pri/T1WMNE3EX-F47RUH31S/____________.jpg');
+  background-image:url('http://ols6vd1wm.bkt.clouddn.com/your_name_21.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
