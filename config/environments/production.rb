@@ -5,7 +5,7 @@ Rails.application.configure do
   config.cache_classes = true
 
   # 解决本地跟heroku显示不同问题
-  config.serve_static_assets = true
+  # config.serve_static_assets = true
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
