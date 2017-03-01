@@ -2,12 +2,13 @@ require_relative 'boot'
 
 require 'rails/all'
 
+# 解决本地跟heroku显示不同问题
+config.serve_static_assets = true
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-# 解决本地跟heroku显示不同问题
-config.serve_static_assets = true
 
 
 module Jdstore

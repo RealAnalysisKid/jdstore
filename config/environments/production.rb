@@ -4,6 +4,9 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
 
+  # 解决本地跟heroku显示不同问题
+  config.serve_static_assets = true
+
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
@@ -56,9 +59,6 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "jdstore_#{Rails.env}"
   config.action_mailer.perform_caching = false
-
-  # 解决本地跟heroku显示不同问题
-  config.serve_static_assets = true
 
 
   # Ignore bad email addresses and do not raise email delivery errors.
