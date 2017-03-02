@@ -109,6 +109,51 @@ background-color: #2d2d30;
   padding-bottom: 110px;
 }
 
+// How part design
+
+.boxes {
+    background-color: #F5F5F5;
+    padding-top: 33px;
+    padding-bottom: 80px;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.boxes>.content_area {
+    text-align: center;
+}
+
+.boxes>.content_area>.round-container {
+    border: 1px solid #c6c6c6;
+    border-radius: 15px;
+    background-color: white;
+    padding: 44px 30px 56px 30px;
+    text-align: center;
+    height: auto;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pd {
+    padding: 0 20px 25px 20px;
+}
+
+.pd-last {
+    padding: 0 20px 0 20px;
+}
+
+// end of how design
+
+
 .title {
   font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
   text-align: left;
@@ -179,7 +224,7 @@ html, body {
 
 .ap-parallax-2 {
     margin: 0 auto;
-    background: url(http://ols6vd1wm.bkt.clouddn.com/tradition_21.jpg) no-repeat;
+    background: url(http://ols6vd1wm.bkt.clouddn.com/%E7%BE%8E%E5%A5%BD2.jpg) no-repeat;
     width: 100%;
     padding-top: 140px;
     padding-bottom: 170px;
@@ -189,6 +234,12 @@ html, body {
     min-height: 460px;
     background-position: 50% 0%;
 }
+
+// 图片
+
+// 校园 http://ols6vd1wm.bkt.clouddn.com/%E6%A0%A1%E5%9B%AD2.jpg
+// 职场 http://ols6vd1wm.bkt.clouddn.com/%E8%81%8C%E5%9C%BA1.jpg
+// 职场 http://ols6vd1wm.bkt.clouddn.com/%E8%81%8C%E5%9C%BA2.jpg
 
 // 滚动图片的字体颜色设定
 
