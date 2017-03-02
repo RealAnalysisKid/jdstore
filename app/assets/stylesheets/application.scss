@@ -76,16 +76,29 @@ background-color: #2d2d30;
 }
 
 .carousel-caption h2 {
+    font-weight:bold;
     color: #fff !important;
     font-size: 40px !important;
     font-family: STFangSong !important;
 }
 
+.carousel-caption p {
+    color: #fff !important;
+    font-size: 20px !important;
+    font-family: STFangSong !important;
+}
+
 p.tip span {
-	font-weight:bold;
-	color:#ff9955;
-  font-size: 60px !important;
+	//font-weight:bold;
+  font-family: STFangSong !important;
+  font-size: 200% !important;
 	}
+
+h2.tip span {
+  //font-weight:bold;
+  font-family: STFangSong !important;
+  font-size: 200% !important;
+  }
 
 
 
