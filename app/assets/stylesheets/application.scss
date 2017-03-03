@@ -174,8 +174,8 @@ background-color: #2d2d30;
     background-size: cover;
     min-height: 200px;
     text-align: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     margin: 0;
 }
 
@@ -238,6 +238,8 @@ background-color: #2d2d30;
 
 // call to cation I
 
+
+
 /* Remove rounded borders from list */
 .list-group-item:first-child {
     border-top-right-radius: 0;
@@ -275,6 +277,10 @@ background-color: #2d2d30;
     border: 1px solid #333;
     background-color: #fff;
     color: #000;
+}
+
+.nav-tabs li a {
+    color: #777;
 }
 
 // call to action I end
@@ -348,6 +354,20 @@ html, body {
 
 // 上下滚动图片,自带背景不动效果
 
+
+.ap-parallax-1 {
+    margin: 0 auto;
+    background: url(http://ols6vd1wm.bkt.clouddn.com/Application_2.jpg) no-repeat;
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 170px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: static;
+    min-height: 460px;
+    background-position: 50% 0%;
+}
+
 .ap-parallax-2 {
     margin: 0 auto;
     background: url(http://ols6vd1wm.bkt.clouddn.com/%E7%BE%8E%E5%A5%BD2.jpg) no-repeat;
@@ -360,6 +380,8 @@ html, body {
     min-height: 460px;
     background-position: 50% 0%;
 }
+
+
 
 // 图片
 
