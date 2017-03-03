@@ -124,13 +124,19 @@ background-color: #2d2d30;
     padding-right: 15px;
 }
 
-.boxes>.content_area {
+.content_area {
     text-align: center;
 }
 
-.boxes>.content_area>.round-container {
+.content_area {
+    width: 90%;
+    margin-left: 4.5%;
+    margin-top: 4%;
+}
+
+.round-container {
     border: 1px solid #c6c6c6;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: white;
     padding: 44px 30px 56px 30px;
     text-align: center;
@@ -138,6 +144,7 @@ background-color: #2d2d30;
 }
 
 .center-block {
+    border-radius: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
