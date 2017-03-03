@@ -114,7 +114,13 @@ background-color: #2d2d30;
 .boxes {
     background-color: #F5F5F5;
     padding-top: 33px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
+}
+
+.boxes-2 {
+    background-color: #F5F5F5;
+    padding-top: 18px;
+    padding-bottom: 60px;
 }
 
 .container-fluid {
@@ -143,6 +149,7 @@ background-color: #2d2d30;
     height: auto;
 }
 
+
 .center-block {
     border-radius: 15px;
     display: block;
@@ -159,6 +166,118 @@ background-color: #2d2d30;
 }
 
 // end of how design
+
+// what design
+
+.syllabus {
+    background: url(http://www.projecthappyhearts.com/wp-content/uploads/2015/04/green-nature-dual-monitor-other.jpg);
+    background-size: cover;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: 0;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.white {
+    color: #FFF;
+}
+
+.f40 {
+    font-size: 40px;
+}
+
+.kozgopro-medium {
+    font-family: KozGoPro-Medium !important;
+}
+
+.col-xs-12 {
+    float: left;
+    width: 100%;
+}
+
+.box-2-lft {
+    border-bottom: 1px solid rgba(52,60,72,0.2);
+    padding-bottom: 30px;
+}
+
+
+
+.boxes-2 ol {
+    font-size: 16px;
+    padding-left: 0;
+    margin-left: 0;
+    counter-reset: item;
+    line-height: 210%;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.br {
+    display: none;
+}
+
+.kozgopro-regular {
+    font-family: KozGoPro-Regular !important;
+}
+
+// end of what design
+
+
+// call to cation I
+
+/* Remove rounded borders from list */
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Remove border and add padding to thumbnails */
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+// call to action I end
 
 
 .title {
