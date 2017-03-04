@@ -76,7 +76,8 @@ background-color: #2d2d30;
     margin: auto;
 }
 
-.carousel-caption h3 {
+.carousel-caption  {
+    font-family: SimSun, STFangSong;
     color: #fff !important;
 }
 
@@ -88,6 +89,7 @@ background-color: #2d2d30;
 
  .container {
     padding: 80px 120px;  /*第一版设计加入的功能*/
+    font-family: STXihei!important;
 }
 
  .person {
@@ -287,7 +289,7 @@ background-color: #2d2d30;
 
 
 .title {
-  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+  font-family: SimSun，STSong;
   text-align: left;
   margin-top: 200px;
   margin-bottom: 80px;
@@ -296,6 +298,7 @@ background-color: #2d2d30;
 .slogan {
   margin-top: 10px;
   margin-bottom: 50px;
+  font-family: YouYuan;
   text-align: left;
   color: light orange;
   top: 12px;
