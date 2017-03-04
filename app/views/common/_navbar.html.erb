@@ -43,7 +43,9 @@
                         <li>
                           <%= link_to("你预定的人生体验", account_orders_path ) %>
                         </li>
-                          <li> <%= link_to(content_tag(:i, '登出', class: 'fa fa-sign-out'), destroy_user_session_path, method: :delete) %> </li>
+                        <li>
+                          <%= link_to(content_tag(:i, '登出', class: 'fa fa-sign-out'), destroy_user_session_path, method: :delete) %>
+                        </li>
                       </ul>
                   </li>
                 <% end %>

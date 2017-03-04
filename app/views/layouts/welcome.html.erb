@@ -5,6 +5,7 @@
   <%= csrf_meta_tags %>
 
         <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <!-- <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %> -->
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -237,7 +238,9 @@
       <img src="http://ols6vd1wm.bkt.clouddn.com/high_school_10.jpg" alt="高中生">
       <p><strong>高中生S</strong></p>
       <p>原来大学课程跟想象的有差距耶 原来自学能力这么重要 好好拼搏考上那所大学! 跟那位师哥约定好了</p>
-      <button class="btn">立即体验</button>
+        <button class="btn">
+        <%= link_to("立即体验", products_path) %>
+        </button>
     </div>
   </div>
   <div class="col-sm-4">

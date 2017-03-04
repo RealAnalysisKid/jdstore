@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'welcome#index'
+  # root 'welcome#index'
 
   namespace :admin do
     resources :products
@@ -14,9 +14,9 @@ Rails.application.routes.draw do
   end
 
 
-  resources :welcome do
-
-  end
+  # resources :welcome do
+  #
+  # end
 
   resources :products do
     member do
