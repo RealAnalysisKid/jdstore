@@ -176,6 +176,7 @@ h2.tip span {
     padding: 44px 30px 56px 30px;
     text-align: center;
     height: auto;
+    color: #50514F;
 }
 
 
@@ -199,7 +200,7 @@ h2.tip span {
 // what design
 
 .syllabus {
-    background: url(http://www.projecthappyhearts.com/wp-content/uploads/2015/04/green-nature-dual-monitor-other.jpg);
+    background: url(http://ols6vd1wm.bkt.clouddn.com/Banner_3.png);
     background-size: cover;
     min-height: 200px;
     text-align: center;
@@ -225,6 +226,7 @@ h2.tip span {
 
 .kozgopro-medium {
     font-family: KozGoPro-Medium !important;
+    color: #50514F;
 }
 
 .col-xs-12 {
@@ -260,6 +262,8 @@ h2.tip span {
 
 .kozgopro-regular {
     font-family: KozGoPro-Regular !important;
+    color: #50514F;
+
 }
 
 // end of what design
@@ -386,7 +390,7 @@ html, body {
 
 .ap-parallax-1 {
     margin: 0 auto;
-    background: url(http://ols6vd1wm.bkt.clouddn.com/Application_2.jpg) no-repeat;
+    background: url(http://ols6vd1wm.bkt.clouddn.com/Banner_1.jpg) no-repeat;
     width: 100%;
     padding-top: 140px;
     padding-bottom: 170px;
@@ -399,7 +403,7 @@ html, body {
 
 .ap-parallax-2 {
     margin: 0 auto;
-    background: url(http://ols6vd1wm.bkt.clouddn.com/%E7%BE%8E%E5%A5%BD2.jpg) no-repeat;
+    background: url(http://ols6vd1wm.bkt.clouddn.com/Banner_2.jpg) no-repeat;
     width: 100%;
     padding-top: 140px;
     padding-bottom: 170px;
@@ -424,12 +428,14 @@ html, body {
     color: #fff;
     font-size: 35px;
     letter-spacing: -3px;
+    text-shadow: -2px -2px 0 #424242
 }
 
 .p-desc {
     color: #fff;
     font-size: 20px;
     margin-bottom: 20px;
+    text-shadow: -2px -2px 0 #424242
 }
 
 
